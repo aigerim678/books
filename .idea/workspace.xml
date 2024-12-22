@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ddda8b83-dda2-4b2d-8e79-7c63733af3da" name="Changes" comment="">
+    <list default="true" id="ddda8b83-dda2-4b2d-8e79-7c63733af3da" name="Changes" comment="Filter, Search, Ordering">
+      <change afterPath="$PROJECT_DIR$/templates/oauth.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/books/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/books/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/tests/test_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/tests/test_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/books/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/books/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/store/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +20,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -50,18 +50,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python tests.Python tests for test_api.BooksApiTestCase.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_logic.LogicTestCase.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_logic.LogicTestCase.test_minus.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_logic.LogicTestCase.test_plus.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Python tests.Python tests for test_api.BooksApiTestCase.executor": "Run",
+    "Python tests.Python tests for test_logic.LogicTestCase.executor": "Run",
+    "Python tests.Python tests for test_logic.LogicTestCase.test_minus.executor": "Run",
+    "Python tests.Python tests for test_logic.LogicTestCase.test_plus.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/store" />
@@ -165,6 +166,15 @@
       <option name="presentableId" value="Default" />
       <updated>1734695644071</updated>
     </task>
+    <task id="LOCAL-00001" summary="Filter, Search, Ordering">
+      <option name="closed" value="true" />
+      <created>1734852445556</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1734852445556</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -180,6 +190,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Unit Tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="Filter, Search, Ordering" />
+    <option name="LAST_COMMIT_MESSAGE" value="Filter, Search, Ordering" />
   </component>
 </project>
