@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ddda8b83-dda2-4b2d-8e79-7c63733af3da" name="Changes" comment="Like, Bookmarks, Rating">
+    <list default="true" id="ddda8b83-dda2-4b2d-8e79-7c63733af3da" name="Changes" comment="Annotate">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/books/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/books/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/books/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/books/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/store/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/store/tests/test_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/tests/test_api.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/store/tests/test_serializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/tests/test_serializer.py" afterDir="false" />
@@ -207,7 +208,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735399033024</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Annotate">
+      <option name="closed" value="true" />
+      <created>1735492059238</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1735492059238</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -228,6 +237,7 @@
     <MESSAGE value="CRUD" />
     <MESSAGE value="Permissions" />
     <MESSAGE value="Like, Bookmarks, Rating" />
-    <option name="LAST_COMMIT_MESSAGE" value="Like, Bookmarks, Rating" />
+    <MESSAGE value="Annotate" />
+    <option name="LAST_COMMIT_MESSAGE" value="Annotate" />
   </component>
 </project>

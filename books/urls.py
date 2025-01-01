@@ -17,6 +17,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include, re_path
 from rest_framework.routers import SimpleRouter
+from debug_toolbar.toolbar import debug_toolbar_urls
 
 from store.views import BookViewSet, auth, UserBookRelationView
 
@@ -31,3 +32,5 @@ urlpatterns = [
 ]
 
 urlpatterns += router.urls
+urlpatterns += debug_toolbar_urls()
+
