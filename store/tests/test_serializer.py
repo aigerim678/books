@@ -17,15 +17,16 @@ class BookSerializerTestCase(TestCase):
 
         UserBookRelation.objects.create(user=user1, book=book_1, like=True, rate=3)
         UserBookRelation.objects.create(user=user2, book=book_1, like=True, rate=4)
-        UserBookRelation.objects.create(user=user3, book=book_1, like=True)
+        user_book_3 = UserBookRelation.objects.create(user=user3, book=book_1, like=True)
+        user_book_3.rate = 4
+        user_book_3.save()
 
         UserBookRelation.objects.create(user=user1, book=book_2, like=True, rate=5)
         UserBookRelation.objects.create(user=user2, book=book_2, like=True)
         UserBookRelation.objects.create(user=user3, book=book_2, like=True)
 
         books = Book.objects.all().annotate(annotated_likes=Count(Case(When(userbookrelation__like=True, then=1))),
-                                            rating=Avg('userbookrelation__rate'),
-                                            final_price=ExpressionWrapper(F('price') - (F('price') * F('discount') / 100), output_field=DecimalField(max_digits=7, decimal_places=2))
+                                            final_price=ExpressionWrapper(F('price') - (F('price') * F('discount') / 100), output_field=DecimalField(max_digits=7, decimal_places=2)), owner_name=F('owner__username')
                                             ).order_by('id')
 
         data = BooksSerializer(books, many=True).data
